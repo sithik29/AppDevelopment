@@ -1,0 +1,93 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-image: url('https://wallpapers.com/images/high/super-mario-4k-cartoon-characters-ptzyc90nvtv97frl.webp');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #f0f0f0; /* Background color for the entire page */
+  font-family: 'Comic Sans MS', cursive, sans-serif; /* Playful font */
+}
+
+/* Style the login container */
+.login-container {
+  text-align: center;
+  padding: 20px;
+  padding-right: 9%;
+  padding-left: 8%;
+  margin-right: 68px;
+  width: 400px;
+  border: 2px solid #ff6b81; /* Fun pink color */
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  background-color: rgb(19, 231, 231); /* Background color for the login container */
+}
+
+.login-title {
+  font-size: 36px;
+  color: #ff6b81; /* Fun pink color */
+  padding-left: 5%;
+}
+
+.form-group {
+  margin-bottom: 20px;
+  padding-right: 5%;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #3c40c6; /* Bright blue color */
+  font-size: 20px;
+}
+
+.input-field {
+  width: 300px;
+  padding: 12px;
+  padding-right: 10px;
+  padding-left: 20px;
+  border: 2px solid #ff6b81; /* Fun pink color */
+  border-radius: 15px;
+  font-size: 18px;
+  color: #3c40c6; /* Bright blue color */
+  background-color: transparent;
+  margin-bottom: 20px; /* Add some space below the input field */
+}
+
+.login-button {
+  width: 100%;
+  padding: 12px;
+  background-color: #ff6b81; /* Fun pink background color */
+  color: #fff;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  font-size: 20px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.login-button:hover {
+  background-color: #ff5252; /* Slightly darker pink on hover */
+}
+
+.register {
+  margin-top: 20px;
+  font-size: 18px;
+  color: #3c40c6; /* Bright blue color */
+}
+
+.register a {
+  color: #ff6b81; /* Fun pink color for links */
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease-in-out;
+}
+
+.register a:hover {
+  color: #ff5252; /* Slightly darker pink on hover */
+}
+

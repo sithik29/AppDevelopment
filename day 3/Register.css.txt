@@ -1,0 +1,87 @@
+/* Register.css */
+
+/* Container for the registration form */
+
+.registration-container {
+  background-image: url('https://c4.wallp aperflare.com/wallpaper/205/36/910/adventure-time-lofi-walkman-headphones-cartoon-network-hd-wallpaper-preview.jpg');
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #f0f0f0; /* Background color for the entire page */
+  font-family: 'Comic Sans MS', cursive, sans-serif; /* Playful font */
+}
+
+/* Styling for the registration form */
+.registration-box {
+  text-align: center;
+  width: 400px;
+  border: 2px solid #ff6b81; /* Fun pink color */
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  padding-right: 9%;
+  padding-left: 8%;
+  margin-right: 68px;
+  background-color: rgb(19, 231, 231); 
+
+}
+
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 36px; /* Larger font size for a playful look */
+  color: #ff6b81; /* Fun pink color */
+}
+
+form {
+  width: 300px;
+  margin: 0 auto;
+}
+
+div {
+  margin-bottom: 20px; /* Increased spacing between form elements */
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #3c40c6; /* A bright blue color */
+  font-size: 20px; /* Slightly larger font for emphasis */
+}
+
+input {
+  width: 100%;
+  padding: 12px; /* Larger padding for a softer appearance */
+  border: 2px solid #ff6b81; /* Match the fun pink color */
+  border-radius: 15px; /* Rounded corners for a playful look */
+  font-size: 18px; /* Slightly larger font for input fields */
+  background-color: transparent;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  background-color: #ff6b81; /* Fun pink background color */
+  color: #fff;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  font-size: 20px; /* Larger font size for the button */
+}
+
+button:hover {
+  background-color: #ff5252; /* Slightly darker pink on hover */
+}
+
+.error-message {
+  color: red;
+  font-size: 14px;
+  margin-top: 4px;
+}
