@@ -1,0 +1,107 @@
+
+
+body, h1, h2, p, ul, li 
+{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+ /* background-image: url('../images/pexels-jonathan-petersson-399610.jpg');*/
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-color: #f2f2f2; /* Fallback background color */
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+
+header {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1rem 0;
+  margin-bottom: 2rem;
+}
+
+header h1 {
+  font-size: 2rem;
+}
+
+.main-container {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-container {
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px grey;
+  padding: 2rem;
+  width: 300px;
+  margin: 2rem auto;
+  margin-top: 6.9rem;
+  
+}
+
+.login-container h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.25rem;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+button {
+  background-color: orangered;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color:green;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1rem 0;
+  margin-top: 11.8rem;
+}
+
+.login-container p {
+  margin-top: 15px;
+}
+.vvd
+{
+  font-style: italic;
+}
+.register-here
+{
+color:blue;
+cursor: pointer;
+}
