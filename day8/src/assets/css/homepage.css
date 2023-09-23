@@ -1,0 +1,110 @@
+
+
+/* Style the header and navbar */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  /* Style the name on the left side of the navbar */
+  .navbar-name {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  /* Style the navigation links on the right side of the navbar */
+  .nav-links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+  }
+  
+  .nav-links li {
+    margin-right: 20px;
+  }
+  
+  /* Style the links */
+  .nav-links a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  /* Change link color on hover */
+  .nav-links a:hover {
+    color: #ff5722;
+  }
+  /* homepage.css */
+
+/* Style the video background container */
+.video-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    overflow: hidden;
+  }
+  
+  /* Style the video to cover the entire container */
+  .video-background video {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+  }
+  /* homepage.css */
+/* homepage.css */
+
+/* Center the centered text container */
+.centered-text {
+    position: absolute;
+    margin-top: 50px;
+    top: 50%;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  
+  .text {
+    font-size: 48px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif; /* Use Poppins font */
+    color: #ff5722; /* Change the text color to your desired color (e.g., orange) */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  
+  /* Style the rest of the text */
+  .centered-text h1 {
+    font-size: 36px;
+    font-family: 'Poppins', sans-serif; /* Use Poppins font */
+    color: #fff; /* Text color for the rest of the text */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  .bg
+{
+  background-image: url(C:\Users\SITHIK\Downloads\event-decoration\event-decoration\public\download.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+  bottom:0px;
+  
+}  
+ 
+  
+ 
