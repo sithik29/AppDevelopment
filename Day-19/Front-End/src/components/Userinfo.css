@@ -1,0 +1,36 @@
+.user__info{
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    flex-direction: column;
+}
+.user__infoDetails > h5{
+    text-align: center;
+}
+.user__info > img{
+    border-radius: 50%;
+    object-fit: contain;
+}
+.user__infoDetails{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.user__infos{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+.user__infoDetail{
+    color: gray;
+    display: flex;
+    font-size: 14px;
+    margin-right: 15px;
+    align-items: center;
+}
+.user__infoDetail > i{
+    padding-right: 5px;
+}

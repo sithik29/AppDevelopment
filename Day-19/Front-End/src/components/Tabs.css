@@ -1,0 +1,14 @@
+.nav-tabs, 
+.nav-link.active, 
+.nav-items.show,
+.nav-link{
+    /* display: flex; */
+    color: black;
+    font-weight: bold;
+    /* align-items: center;
+    justify-content: center; */
+}
+.nav-link{
+    font-size: 14px;
+    color: #586069;
+}
