@@ -1,0 +1,2 @@
+Day-24,
+	Full-Stack Application in verified for Our Student Colloboration Platform.
